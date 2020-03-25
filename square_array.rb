@@ -4,7 +4,7 @@ new_numbers = [9,10,16,25]
 
 def square_array(array)
   
-  new_array []
+  new_array []<< square_array
   
   array.each do |number| 
       
