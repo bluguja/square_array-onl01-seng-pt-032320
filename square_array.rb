@@ -4,7 +4,7 @@ new_numbers = [9,10,16,25]
 
 def square_array(array)
   
-  new_array []<< square_array
+  new_array [] << square_array
   
   array.each do |number| 
       
@@ -14,5 +14,5 @@ def square_array(array)
       
 end
     
-print square_array(numbers)
-print square_array(new_numbers)
+ return square_array(numbers)
+ return square_array(new_numbers)
